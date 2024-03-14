@@ -31,10 +31,30 @@ $i=0;
 // echo $random1. " ".$random2. " ".$random3 ."<br>";
 // echo $i;
 
-$num=rand(111,999);
-while($num!=333){
-    $i++;
-    $num=rand(0,999);
+// $num=rand(111,999);
+// while($num!=333){
+//     $i++;
+//     $num=rand(0,999);
+// }
+// echo $i;
+// for ($i=0; $i <10 ; $i++) { 
+//     $tab[$i]=chr(rand(32,));
+// }
+// $i=0;
+// foreach  ($tab as $value) {
+//     echo $value;
+//     $i++;
+//     if($i%50==0){echo "<br>";}
+// }
+$s="ga3 jerad wlad l97ab dsfkj dlsfkj sdfl sefjh lqjdfpojo qsdoj qdf";
+// ucwords($s);
+// for ($i=0; $i < strlen($s); $i++) { 
+//     # code...
+//     echo $s[$i];
+//     if($s[$i]==' '){echo '<br>';}
+// }
+$tab=explode(' ',ucwords($s));
+foreach ($tab as $key=> $v) {
+    echo $v;
+    echo "<br>";
 }
-echo $i;
-
