@@ -67,13 +67,15 @@
 
 <body>
     <h1>Formulaire d'inscription</h1>
-    <form action="traitement.php" method="post">
+    <form action="page2.php" method="post">
         <label for="nom">Nom:</label>
         <input type="text" id="nom" name="nom" required><br>
-        <label for="filiere">Filière:</label>
-        <input type="text" id="filiere" name="filiere" required><br>
+        <label for="filiere">Adress:</label>
+        <input type="email" id="filiere" name="filiere" required><br>
         <label for="ville">Ville:</label>
         <input type="text" id="ville" name="ville" required><br>
+        <label for="code_postal">code postal:</label>
+        <input type="text" id="code_postal" name="code_postal" required><br>
         <button type="submit">Envoyer</button>
     </form>
 </body>

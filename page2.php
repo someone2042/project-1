@@ -3,9 +3,10 @@
 session_start();
 
 // Récupération des données de la session
-$nom = $_SESSION['nom'];
-$filiere = $_SESSION['filiere'];
-$ville = $_SESSION['ville'];
+$nom = $_POST['nom'];
+$filiere = $_POST['filiere'];
+$ville = $_POST['ville'];
+$code_postal = $_POST['code_postal'];
 ?>
 
 <!DOCTYPE html>
@@ -17,11 +18,22 @@ $ville = $_SESSION['ville'];
 </head>
 
 <body>
-    <h1>Vos informations</h1>
-    <p>Nom: <?php echo $nom ?></p>
-    <p>Filière: <?php echo $filiere ?></p>
-    <p>Ville: <?php echo $ville ?></p>
-    <a href="page3.php">Lien vers la page 3</a>
+    <td>Vos informations</td>
+    <table border="1">
+        <tr>
+            <th>nom</th>
+            <th>adress</th>
+            <th>ville</th>
+            <th>code postal</th>
+        </tr>
+        <tr>
+            <td><?php echo $nom ?></td>
+            <td><?php echo $filiere ?></td>
+            <td><?php echo $ville ?></td>
+            <td><?php echo $code_postal ?></td>
+        </tr>
+    </table>
+    <a href="index.php">Lien vers la page 3</a>
 </body>
 
 </html>
