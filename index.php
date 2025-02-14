@@ -57,7 +57,7 @@
 //     echo $v;
 //     echo "<br>";
 // } -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -67,17 +67,33 @@
 
 <body>
     <h1>Formulaire d'inscription</h1>
-    <form action="page2.php" method="post">
-        <label for="nom">Nom:</label>
-        <input type="text" id="nom" name="nom" required><br>
-        <label for="filiere">Adress:</label>
-        <input type="email" id="filiere" name="filiere" required><br>
-        <label for="ville">Ville:</label>
-        <input type="text" id="ville" name="ville" required><br>
-        <label for="code_postal">code postal:</label>
-        <input type="text" id="code_postal" name="code_postal" required><br>
-        <button type="submit">Envoyer</button>
+    <form action="" method="post">
+        <input type="text" name="whatever">
+        <input type="submit">
     </form>
 </body>
 
-</html>
+
+
+</html> -->
+
+<?php
+function whatever()
+{
+    echo '<form action="">
+    <input type="text" name="whatever">
+    <label for="k">whatever</label>
+    <input type="radio" name="kj" value="c" id="k">
+    <label for="kj">whatever</label>
+    <input type="radio" name="kj" value="c" id="kj">
+    <label for="kz">whatever</label>
+    <input type="radio" name="kj" value="c" id="kz">
+    <input type="text" name="fuck">
+
+    <input type="submit">
+    </form>';
+}
+
+$list = ["whatever", "somEthing", "idk", "anyway"];
+whatever();
+// echo "hello";
