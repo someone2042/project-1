@@ -78,22 +78,22 @@
 </html> -->
 
 <?php
-function whatever()
-{
-    echo '<form action="">
-    <input type="text" name="whatever">
-    <label for="k">whatever</label>
-    <input type="radio" name="kj" value="c" id="k">
-    <label for="kj">whatever</label>
-    <input type="radio" name="kj" value="c" id="kj">
-    <label for="kz">whatever</label>
-    <input type="radio" name="kj" value="c" id="kz">
-    <input type="text" name="fuck">
+// function whatever()
+// {
+//     echo '<form action="">
+//     <input type="text" name="whatever">
+//     <label for="k">whatever</label>
+//     <input type="radio" name="kj" value="c" id="k">
+//     <label for="kj">whatever</label>
+//     <input type="radio" name="kj" value="c" id="kj">
+//     <label for="kz">whatever</label>
+//     <input type="radio" name="kj" value="c" id="kz">
+//     <input type="text" name="fuck">
 
-    <input type="submit">
-    </form>';
-}
+//     <input type="submit">
+//     </form>';
+// }
 
-$list = ["whatever", "somEthing", "idk", "anyway"];
-whatever();
-// echo "hello";
+// $list = ["whatever", "somEthing", "idk", "anyway"];
+// whatever();
+// // echo "hello";
